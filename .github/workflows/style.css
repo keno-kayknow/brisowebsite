@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+.logo h1{
+    float: right;
+    padding: 10px 0px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinksul{
+    display: flex;
+    padding: 20px 0px;
+
+}
+
+.navlinksul li{
+    list-style: none;
+   
+}
+.navlinksul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0px 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+.stripe{
+    padding: 5px;
+    background-color: #000;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.stripe3{
+    padding: 5px;
+    background-color: #000;
+}
+.pt{
+    text-align: center;
+    padding: 20px 0px;
+    background-color: oldlace;
+}
+
+.product1{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px 10px ;
+}
+
+.grid img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.socials{
+    background-color: rgb(83, 77, 77);
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.socials h4{
+    padding: 7px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialsul{
+    display: flex;
+}
+
+.socialsul li{
+    list-style: none;
+}
+
+.socialsul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 0px 15px;
+}
+
+.whatsapp a{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+@media(min-width: 1024px){
+    .mobilemenu{
+        display: none;
+    }
+    .stripe1{
+        display: none;
+    }
+}
+
+
+@media(max-width: 798px){
+
+
+    .header{
+        display: none;
+    }
+
+    .stripe{
+        display: none;
+    }
+
+    .mobilemenu{
+        position: relative;
+        width: 100%;
+        
+    }
+
+    .menuicon img{
+        width: 50px;
+        height: 50px;
+    }
+    .stripe1{
+        padding: 5px;
+        background-color: #000;
+    }
+
+    .mobilelogo img{
+        width: 70px;
+        height: 70px;
+    }
+    .mobilelogo{
+        display: flex;
+    }
+    .mobilelogo h1{
+        padding: 13px 0px;
+    }
+
+    .mobilenavlinksul li{
+        list-style: none;
+        padding: 20px 10px;
+    }
+    
+    #mobilenavlinks{
+        background-color: bisque;
+        display: none;
+    }
+    
+    .mobilenavlinksul li a{
+        text-decoration: none;
+        color: #000;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .mobilenavlinksul li:hover{
+        background-color: rgb(204, 197, 197);
+    }
+    
+    .menuicon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+
+
+    .product1{
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px 0px ;
+    }
+    
+    .grid img{
+        width: 170px;
+        height: 170px;
+    }
+    
+}
+
